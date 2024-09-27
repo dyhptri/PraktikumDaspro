@@ -5,6 +5,7 @@ public class PemilihanHariDenganIf07 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number(1-7): ");
+        
         int angka = sc.nextInt();
 
         if (angka >= 1 && angka <= 5) {
